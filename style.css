@@ -52,21 +52,7 @@
     content: url('./img/search_hover.png');
 }
 
-/* -------------------------carousel------------------------ */
-
-.carousel {
-    display: flex;
-    overflow: hidden;
-    width: 100%;
-    height: 550px; 
-}
-
-.slide img {
-    max-width: 100%;
-    margin: 0 auto;
-    display: block;
-}
-
+/* -------------------------banner------------------------ */
 .carousel {
     position: relative; 
     background: linear-gradient(to right, #0000008b, #00000000), url('./img/banner_1920_550.jpg') center/cover no-repeat;
@@ -76,5 +62,13 @@
     height: 550px;
 }
 
+/* ---------------------------------banner menu-------------------------- */
 
-
+.banner-menu {
+    position: relative; 
+    background: url('./img/banner_Menu_1920_600.jpg') center/cover no-repeat;
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+    height: 600px;
+}
