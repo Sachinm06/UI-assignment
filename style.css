@@ -1,3 +1,19 @@
+@import url('https://fonts.cdnfonts.com/css/avenir');
+
+
+@font-face {
+    font-family: avenirMed;
+    src: url(AvenirMedium.ttf);
+}
+
+@font-face {
+    font-family: avenirBook;
+    src: url(AvenirBook.ttf);
+}
+
+
+
+
 * {
     margin: 0;
     padding: 0;
@@ -76,13 +92,13 @@
 }
 
 .carousel article h2 {
-    font-family: Avenir;
+    font-family: avenirMed;
     font-size: 42px;
     font-weight: 500;
 }
 
 .carousel article p {
-    font-family: Avenir;
+    font-family: avenirMed;
     font-size: 16px;
     font-weight: 500;
     margin-top: 20px;
@@ -134,11 +150,13 @@
     right: 27px;
     transform: translateY(-50%);
 }
-.circle-div{
+
+.circle-div {
     display: flex;
-    justify-content:center ;
-    margin-top:110px;
+    justify-content: center;
+    margin-top: 110px;
 }
+
 .circle {
     width: 12px;
     height: 12px;
@@ -146,12 +164,13 @@
     border: solid 1px #ffffff;
     margin: 5px;
     cursor: pointer;
-  }
-  #circle3{
-     background-color: #41b6e6;
-     border: none;
+}
 
-  }
+#circle3 {
+    background-color: #41b6e6;
+    border: none;
+
+}
 
 /* ---------------------------------menu-------------------------- */
 
@@ -178,7 +197,7 @@ p {
 }
 
 .banner-menu .container h2 {
-    font-family: Avenir;
+    font-family: avenirMed;
     font-size: 42px;
     font-weight: 500;
     color: #0072ce;
@@ -228,7 +247,95 @@ p {
 .learn-more-button2 button {
     border: 1px solid #41b6e6;
     background: transparent;
-    padding: 7px;
+    padding: 6px;
     margin-left: 15px;
 }
 
+/* -------------------------------------menu 1--------------------------------- */
+.publication {
+    position: absolute;
+    top: 0;
+    right: 30rem;
+}
+
+.publication img {
+    width: 30px !important;
+    height: 30px;
+
+}
+
+#menu1 {
+    margin-top: 70px;
+}
+
+#menu1 h2 {
+    font-family: avenirMed;
+    font-size: 42px;
+    font-weight: 500;
+    color: #0072ce;
+}
+
+#menu1 .container {
+    position: relative;
+
+    /* display: flex;
+    justify-content: center;
+    text-align: start; */
+    /* border: 2px solid red; */
+}
+
+#menu1 article .lorem-page {
+    margin-top: 40px;
+    padding: 50px;
+    margin-left: 30px;
+    padding-bottom: 100px;
+    background-color: #41b6e6;
+    width: 700px;
+    height: 600px;
+}
+
+#menu1 article .lorem-page2 {
+    border: 2px solid red;
+
+}
+
+#menu1 article .lorem-page p {
+    margin-left: 30px;
+}
+
+#menu1 article .lorem-page img {
+    margin-top: 70px;
+    width: 274px;
+
+}
+
+#menu1 article {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.lorem-caption {
+    margin-top: 120px;
+    margin-left: -39px;
+}
+
+.lorem-h1 {
+    color: #ffffff;
+    font-family: avenirBook;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+.lorem-p1 {
+    font-family: avenirMed;
+    font-size: 21px;
+    color: #ffffff;
+    /* text-align: justify; */
+}
+
+.lorem-p2 {
+    font-family: avenirMed;
+    font-size: 16px;
+    color: #ffffff;
+}
