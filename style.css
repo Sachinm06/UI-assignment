@@ -247,8 +247,10 @@ p {
 .learn-more-button2 button {
     border: 1px solid #41b6e6;
     background: transparent;
-    padding: 6px;
+    padding: 5px;
     margin-left: 15px;
+    width: 30px;
+
 }
 
 /* -------------------------------------menu 1--------------------------------- */
@@ -262,6 +264,10 @@ p {
     width: 30px !important;
     height: 30px;
 
+}
+
+#btn-1 {
+    margin-right: 10px;
 }
 
 #menu1 {
@@ -291,13 +297,10 @@ p {
     padding-bottom: 100px;
     background-color: #41b6e6;
     width: 700px;
-    height: 600px;
+    height: 577px;
 }
 
-#menu1 article .lorem-page2 {
-    border: 2px solid red;
-
-}
+#menu1 article .lorem-page2 {}
 
 #menu1 article .lorem-page p {
     margin-left: 30px;
@@ -305,7 +308,11 @@ p {
 
 #menu1 article .lorem-page img {
     margin-top: 70px;
-    width: 274px;
+
+}
+
+.LoremImg {
+    width: 198px;
 
 }
 
@@ -338,4 +345,94 @@ p {
     font-family: avenirMed;
     font-size: 16px;
     color: #ffffff;
+}
+
+#menu1 article .lorem-page2 {
+    margin-top: 40px;
+}
+
+.lorem-text {
+    background-color: #cec9ca;
+    width: 210px;
+    height: 256px;
+}
+
+/* ---------------- */
+
+.button-container4 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+    margin-left: 19.9px;
+}
+
+.button-container4 a {
+    color: black;
+}
+
+.learn-more-button4 {
+    display: inline-block;
+    text-decoration: none;
+    position: relative;
+    font-size: 12px;
+    font-family: Avenir 'Times New Roman', Times, serif;
+    font-weight: 500;
+
+}
+
+.learn-more-button4 button {
+    border: 1px solid #41b6e6;
+    background: transparent;
+    padding: 3px;
+    margin-left: 5px;
+    background-color: #41b6e6;
+    width: 25px;
+}
+
+.row .lorem-second {
+    margin-top: 40px;
+}
+
+/* ---------- */
+
+.button-container3{
+margin-top: 50PX;
+}
+.button-container3 a {
+    padding-right: 0;
+    color: #0072ce;
+}
+
+.learn-more-button3 {
+    display: inline-block;
+    padding: 5px;
+    padding-left: 10px;
+    background: transparent;
+    color: #0072ce;
+    text-decoration: none;
+    position: relative;
+    font-size: 12px;
+    font-family: Avenir 'Times New Roman', Times, serif;
+    border: #0072ce solid 1px;
+    font-weight: 500;
+
+}
+
+.arrow {
+    margin-left: 10px;
+    width: 35px;
+    height: 15px;
+    vertical-align: center;
+
+}
+
+.learn-more-button3::after {
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: 30px;
+    background-color: #0072ce;
+    top: 50%;
+    right: 27px;
+    transform: translateY(-50%);
 }
