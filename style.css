@@ -254,10 +254,11 @@ p {
 }
 
 /* -------------------------------------menu 1--------------------------------- */
+
 .publication {
     position: absolute;
     top: 0;
-    right: 30rem;
+    right: 28rem;
 }
 
 .publication img {
@@ -267,7 +268,7 @@ p {
 }
 
 #btn-1 {
-    margin-right: 10px;
+    margin-right: -7.5px;
 }
 
 #menu1 {
@@ -283,12 +284,14 @@ p {
 
 #menu1 .container {
     position: relative;
+    /* margin-left: -17px; */
 
     /* display: flex;
     justify-content: center;
     text-align: start; */
     /* border: 2px solid red; */
 }
+
 
 #menu1 article .lorem-page {
     margin-top: 40px;
@@ -300,7 +303,9 @@ p {
     height: 577px;
 }
 
-#menu1 article .lorem-page2 {}
+#menu1 article .menu-div {
+    display: contents;
+}
 
 #menu1 article .lorem-page p {
     margin-left: 30px;
@@ -349,12 +354,18 @@ p {
 
 #menu1 article .lorem-page2 {
     margin-top: 40px;
+    margin-left: -25px;
 }
 
 .lorem-text {
-    background-color: #cec9ca;
+    background-color: #E6E7E8;
     width: 210px;
     height: 256px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: -17px;
+
 }
 
 /* ---------------- */
@@ -363,11 +374,11 @@ p {
     display: flex;
     justify-content: flex-end;
     align-items: end;
-    margin-left: 19.9px;
+    margin-left: -25px;
 }
 
 .button-container4 a {
-    color: black;
+    color: #a5a4a4;
 }
 
 .learn-more-button4 {
@@ -377,6 +388,7 @@ p {
     font-size: 12px;
     font-family: Avenir 'Times New Roman', Times, serif;
     font-weight: 500;
+    color: #a5a4a4;
 
 }
 
@@ -397,6 +409,7 @@ p {
 
 .button-container3{
 margin-top: 50PX;
+margin-bottom: 70px;
 }
 .button-container3 a {
     padding-right: 0;
@@ -418,7 +431,7 @@ margin-top: 50PX;
 
 }
 
-.arrow {
+.arrow2 {
     margin-left: 10px;
     width: 35px;
     height: 15px;
@@ -435,4 +448,16 @@ margin-top: 50PX;
     top: 50%;
     right: 27px;
     transform: translateY(-50%);
+}
+/* ------------ */
+.report-txt1{
+    font-size: 13px;
+    color: #6d6e70;
+    font-family: avenirBook;
+}
+.report-txt2{
+    font-size: 18px;
+    color: #0072ce;
+    font-family: avenirMed;  
+    text-align: start;
 }
