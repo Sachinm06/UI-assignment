@@ -470,6 +470,11 @@ p {
 #menu2 {
     background-color: #F1F1F2;
 }
+#menu2 .container-fluid{
+    display: flex;
+    justify-content: center;
+   
+}
 
 #menu2 h2 {
     font-family: avenirMed;
@@ -512,4 +517,7 @@ p {
 }
 #viewAll{
     margin-bottom: 70px;
+}
+.child-1{
+    margin-right: 80px;
 }
