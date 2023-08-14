@@ -266,7 +266,8 @@ p {
     align-items: flex-end;
     justify-content: end;
 }
-.first-column{
+
+.first-column {
     width: auto;
 
 }
@@ -354,7 +355,6 @@ p {
     border: 1px solid #41b6e6;
     background: transparent;
     padding: 3px;
-    margin-left: 5px;
     background-color: #41b6e6;
     width: 25px;
 }
@@ -363,7 +363,6 @@ p {
 
 .button-container3 {
     margin-top: 50PX;
-    /* margin-bottom: 70px; */
 }
 
 .button-container3 a {
@@ -418,19 +417,19 @@ p {
     font-family: avenirMed;
     text-align: start;
 }
-@media (max-width: 1400px) {
 
-}
+@media (max-width: 1400px) {}
 
 /* --------------------------------menu 2------------------------------------ */
 
 #menu2 {
     background-color: #F1F1F2;
 }
-#menu2 .container-fluid{
+
+#menu2 .container-fluid {
     display: flex;
     justify-content: center;
-   
+
 }
 
 #menu2 h2 {
@@ -442,22 +441,39 @@ p {
     padding-top: 70px;
 }
 
-.card-bo {
+#menu2 .child-1 {
     background-color: #ffffff;
     height: 354px;
     width: 232px;
-
+    margin-right: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.menu2Img {
+#menu2 .child-2 {
+    background-color: #ffffff;
+    height: 354px;
+    width: 232px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#menu2 .menu2Img {
     width: 546px;
     height: 354px;
-
+    margin-right: 80px;
 }
 
-.card-img-t {
+#menu2 .card-img {
     width: 232px;
     height: 150px;
+}
+
+#menu2 .row {
+    display: flex;
+    justify-content: center;
 }
 
 .card1 {
@@ -466,15 +482,24 @@ p {
     font-family: avenirBook;
     margin-top: 25px;
 }
-.card2{
+
+.card2 {
     color: #6d6e70;
     font-size: 21px;
     font-family: avenirMed;
     margin-top: -5px;
 }
-#viewAll{
+
+#viewAll {
     margin-bottom: 70px;
 }
-.child-1{
-    margin-right: 80px;
+
+#menu2 .card-item {
+    width: 232px;
 }
+#menu2 .card-div{
+    /* background-color: #ffffff; */
+    width: 232px;
+}
+
+/* --------------------------menu 3-------------------- */
