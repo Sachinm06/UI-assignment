@@ -96,14 +96,24 @@
     font-size: 42px;
     font-weight: 500;
 }
+@media screen and (max-width: 600px) {
+    .carousel article h2 {
+        font-size: 25px;
+    }
+}
 
 .carousel article p {
     font-family: avenirMed;
     font-size: 16px;
     font-weight: 500;
     margin-top: 20px;
-
 }
+@media screen and (max-width: 600px) {
+    .carousel article p {
+        font-size: 10px;
+    }
+}
+
 
 /* --------------- */
 
@@ -202,13 +212,24 @@ p {
     font-weight: 500;
     color: #0072ce;
 }
-
+@media screen and (max-width: 770px) {
+    .banner-menu .container h2 {
+        font-size: 22px;
+        color: #ffffff;
+        margin-top: -15px;
+    }
+}
 .banner-menu .container p {
     font-family: Avenir 'Times New Roman', Times, serif;
     font-size: 18px;
     margin-top: 20px;
     color: #231f20;
-
+}
+@media screen and (max-width: 770px) {
+    .banner-menu .container p {
+        font-size: 8px;
+        color: #ffffff;
+    }
 }
 
 /* ------------ */
@@ -302,17 +323,35 @@ p {
     font-size: 13px;
     text-transform: uppercase;
 }
+@media screen and (max-width: 770px) {
+    .lorem-h1 {
+        font-size: 8px;
+        color: #ffffff;
+    }
+}
 
 .lorem-p1 {
     font-family: avenirMed;
     font-size: 21px;
     color: #ffffff;
 }
+@media screen and (max-width: 770px) {
+    .lorem-p1 {
+        font-size: 13px;
+        color: #ffffff;
+    }
+}
 
 .lorem-p2 {
     font-family: avenirMed;
     font-size: 16px;
     color: #ffffff;
+}
+@media screen and (max-width: 770px) {
+    .lorem-p2 {
+        font-size: 10px;
+        color: #ffffff;
+    }
 }
 
 .lorem-text {
@@ -410,12 +449,21 @@ p {
     color: #6d6e70;
     font-family: avenirBook;
 }
-
+@media screen and (max-width: 770px) {
+    .report-txt1 {
+        font-size: 8px;
+    }
+}
 .report-txt2 {
     font-size: 18px;
     color: #0072ce;
     font-family: avenirMed;
     text-align: start;
+}
+@media screen and (max-width: 770px) {
+    .report-txt2 {
+        font-size: 13px;
+    }
 }
 
 @media (max-width: 1400px) {}
@@ -535,7 +583,7 @@ p {
     justify-content: center;
     align-items: center;
     text-align: start;
-margin-top: 30px;
+    margin-top: 30px;
 
 }
 
@@ -666,4 +714,4 @@ margin-top: 30px;
     background-color: #ffffff;
 }
 
-/* ----------------- */
+/* --------------------------------footer------------------------------- */
