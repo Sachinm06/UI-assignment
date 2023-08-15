@@ -497,9 +497,173 @@ p {
 #menu2 .card-item {
     width: 232px;
 }
-#menu2 .card-div{
+
+#menu2 .card-div {
     /* background-color: #ffffff; */
     width: 232px;
 }
 
-/* --------------------------menu 3-------------------- */
+/* --------------------------menu 3 & 4-------------------- */
+
+#menu-3-4 {
+    color: #ffffff;
+    position: relative;
+    background: url('./img/1920_808.jpg') center/cover no-repeat;
+    /* height: 800px; */
+    overflow-x: hidden;
+
+}
+
+#menu-3-4 #row-1 {
+    background-color: #04a0a0;
+    opacity: 0.7;
+    height: 830px;
+
+}
+
+
+#row-2 {
+    background: #002e5d;
+    opacity: 0.7;
+    height: 830px;
+}
+
+
+#menu-3-4 .nested-column-container-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: start;
+margin-top: 30px;
+
+}
+
+#menu-3-4 .nested-column-container-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+
+}
+
+#nested-1 {
+    margin-left: auto;
+    margin-right: 50px;
+
+}
+
+#nested-2 {
+    margin-right: auto;
+    /* margin-left: 50px; */
+    width: 80%;
+    /* width: 75%; */
+    margin-left: inherit;
+    margin-left: 45px;
+
+}
+
+.nested-column {
+    width: 70%;
+}
+
+.menu-3-4-head {
+    margin-bottom: 35px;
+
+}
+
+.calander-items {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: -5px;
+
+
+}
+
+.calander {
+    width: 100px;
+    height: 100px;
+    background: #ffffff;
+    color: #0072ce;
+    display: grid;
+    text-align: center;
+    font-size: 55px;
+    font-family: avenirBook;
+
+}
+
+.calander-month {
+    width: 100px;
+    height: 25px;
+    background: #002e5d;
+    color: #ffffff;
+    font-size: 14px;
+    font-family: avenir black;
+
+}
+
+.calander-items p {
+    margin-left: 50px;
+    font-size: 21px;
+    font-family: avenirMed;
+
+}
+
+@media screen and (max-width: 600px) {
+    .calander-items p {
+        font-size: 12px;
+    }
+}
+
+.calander-items p span {
+    font-size: 13px;
+    margin-top: 30px;
+    font-family: avenirBook;
+
+}
+
+@media screen and (max-width: 600px) {
+    .calander-items p span {
+        font-size: 8px;
+    }
+}
+
+.nested-img {
+    width: 172px;
+    height: 112px;
+    margin-bottom: 20px;
+}
+
+#nested-2 .calander-items span {
+    color: #61d4f7;
+    font-size: 13px;
+}
+
+@media screen and (max-width: 600px) {
+    #nested-2 .calander-items span {
+        font-size: 8px;
+    }
+}
+
+/* ------------------ */
+
+#menu-3-4 .button-container3 {
+    margin-top: 15PX;
+}
+
+#menu-3-4 .button-container3 a {
+    padding-right: 0;
+    color: #ffffff;
+}
+
+#menu-3-4 .learn-more-button3 {
+    color: #ffffff;
+    border: #ffffff solid 1px;
+}
+
+#menu-3-4 .learn-more-button3::after {
+    background-color: #ffffff;
+}
+
+/* ----------------- */
