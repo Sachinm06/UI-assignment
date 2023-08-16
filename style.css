@@ -475,8 +475,9 @@ p {
 }
 
 .column-1{
-    display: flex;
     margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
 }
 
 /* --------------------------------menu 2------------------------------------ */
@@ -527,7 +528,7 @@ p {
 
 @media screen and (max-width: 800px) {
     #menu2 .menu2Img {
-        width: 346px;
+        width: 400px;
         height: 250px;
         margin-bottom: 50px;
         overflow: hidden;
@@ -554,6 +555,7 @@ p {
     font-family: avenirBook;
     margin-top: 25px;
 }
+
 .card2 {
     color: #6d6e70;
     font-size: 21px;
@@ -573,6 +575,39 @@ p {
 #menu2 .card-div {
     /* background-color: #ffffff; */
     width: 232px;
+    margin-right: 50px;
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.image-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 1;
+    color: #ffffff;
+    font-size: 21px;
+    width: 90%;
+    height: 85%;
+    display: flex;
+    text-align: start;
+    align-items: end;
+}
+@media screen and (max-width: 600px) {
+    .image-text  {
+        font-size: 12px;
+    }
 }
 
 /* --------------------------menu 3 & 4-------------------- */
