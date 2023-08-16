@@ -11,9 +11,6 @@
     src: url(AvenirBook.ttf);
 }
 
-
-
-
 * {
     margin: 0;
     padding: 0;
@@ -96,6 +93,7 @@
     font-size: 42px;
     font-weight: 500;
 }
+
 @media screen and (max-width: 600px) {
     .carousel article h2 {
         font-size: 25px;
@@ -108,6 +106,7 @@
     font-weight: 500;
     margin-top: 20px;
 }
+
 @media screen and (max-width: 600px) {
     .carousel article p {
         font-size: 10px;
@@ -212,6 +211,7 @@ p {
     font-weight: 500;
     color: #0072ce;
 }
+
 @media screen and (max-width: 770px) {
     .banner-menu .container h2 {
         font-size: 22px;
@@ -219,12 +219,14 @@ p {
         margin-top: -15px;
     }
 }
+
 .banner-menu .container p {
     font-family: Avenir 'Times New Roman', Times, serif;
     font-size: 18px;
     margin-top: 20px;
     color: #231f20;
 }
+
 @media screen and (max-width: 770px) {
     .banner-menu .container p {
         font-size: 8px;
@@ -323,6 +325,7 @@ p {
     font-size: 13px;
     text-transform: uppercase;
 }
+
 @media screen and (max-width: 770px) {
     .lorem-h1 {
         font-size: 8px;
@@ -335,6 +338,7 @@ p {
     font-size: 21px;
     color: #ffffff;
 }
+
 @media screen and (max-width: 770px) {
     .lorem-p1 {
         font-size: 13px;
@@ -347,6 +351,7 @@ p {
     font-size: 16px;
     color: #ffffff;
 }
+
 @media screen and (max-width: 770px) {
     .lorem-p2 {
         font-size: 10px;
@@ -449,17 +454,20 @@ p {
     color: #6d6e70;
     font-family: avenirBook;
 }
+
 @media screen and (max-width: 770px) {
     .report-txt1 {
         font-size: 8px;
     }
 }
+
 .report-txt2 {
     font-size: 18px;
     color: #0072ce;
     font-family: avenirMed;
     text-align: start;
 }
+
 @media screen and (max-width: 770px) {
     .report-txt2 {
         font-size: 13px;
@@ -514,6 +522,19 @@ p {
     margin-right: 80px;
 }
 
+@media screen and (max-width: 800px) {
+    #menu2 .menu2Img {
+        width: 346px;
+        height: 250px;
+        margin-bottom: 50px;
+        overflow: hidden;
+        background-size: contain;
+        display: none;
+        display: flex;
+    }
+}
+
+
 #menu2 .card-img {
     width: 232px;
     height: 150px;
@@ -530,13 +551,13 @@ p {
     font-family: avenirBook;
     margin-top: 25px;
 }
-
 .card2 {
     color: #6d6e70;
     font-size: 21px;
     font-family: avenirMed;
     margin-top: -5px;
 }
+
 
 #viewAll {
     margin-bottom: 70px;
@@ -720,6 +741,7 @@ p {
 .bg-grey {
     background: #404041;
 }
+
 .bg-grey {
     color: #ffffff;
     display: flex;
@@ -729,6 +751,8 @@ p {
 .bg-grey h6 {
     position: relative;
     font-size: 16px;
+    font-family: avenir black;
+
 }
 
 @media screen and (max-width: 990px) {
@@ -747,8 +771,9 @@ p {
 
 ::placeholder {
     color: #808080;
-    font-size: 10px;
+    font-size: 13px;
     padding-left: 10px;
+    font-family: avenirBook;
 
 }
 
@@ -757,8 +782,9 @@ p {
     font-size: 14px;
     background: transparent;
     margin-left: -5px;
-    color: #fff;
+    color: #ffffff;
     padding: 5px;
+    font-family: avenirMed;
 }
 
 .bg-grey ul li {
@@ -771,6 +797,8 @@ p {
     color: #ffffff;
     text-decoration: none;
     font-size: 15px;
+    font-family: avenirMed;
+
 }
 
 @media screen and (max-width: 990px) {
@@ -778,6 +806,7 @@ p {
         font-size: 8px;
     }
 }
+
 .logo-part {
     border-right: 1px solid #f4f0ea;
 }
@@ -798,6 +827,8 @@ p {
 
 #social-media h5 {
     font-size: 16px;
+    font-family: avenir black;
+
 }
 
 @media screen and (max-width: 990px) {
@@ -822,7 +853,10 @@ p {
     align-items: center;
     height: 60px;
     background: #e6e7e8;
+    font-family: avenirBook;
+
 }
+
 @media screen and (max-width: 990px) {
     #sub-footer {
         font-size: 8px;
