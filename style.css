@@ -529,7 +529,7 @@ p {
 @media screen and (max-width: 800px) {
     #menu2 .menu2Img {
         width: 400px;
-        height: 250px;
+        height: auto;
         margin-bottom: 50px;
         overflow: hidden;
         background-size: contain;
@@ -585,7 +585,7 @@ p {
 
 .image-container img {
     max-width: 100%;
-    height: auto;
+    height: 354px;
     display: block;
 }
 
@@ -603,6 +603,8 @@ p {
     display: flex;
     text-align: start;
     align-items: end;
+    font-family: avenirMed;
+
 }
 @media screen and (max-width: 600px) {
     .image-text  {
